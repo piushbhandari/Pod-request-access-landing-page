@@ -60,6 +60,94 @@ body {
   background: #121725;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+}
+.main {
+  width: 100%;
+  max-width: 127.5rem;
+  position: relative;
+}
+.main__logo {
+  margin-top: -2.8rem;
+}
+.main__textbox {
+  margin-top: 10.3rem;
+  background: #121725;
+  color: white;
+  padding-top: 8.8rem;
+  padding-right: 5.8rem;
+  max-width: 72.3rem;
+}
+.main__title {
+  font-weight: 400;
+  font-size: 5.2rem;
+  line-height: 6.2rem;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+.main__title span {
+  color: #54e6af;
+}
+.main__description {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #c2cbe5;
+  max-width: 44.5rem;
+  margin-bottom: 4rem;
+}
+.main__form {
+  max-width: 42.7rem;
+  margin-bottom: 6.4rem;
+  position: relative;
+}
+.main__form input {
+  width: 100%;
+  border-radius: 28px;
+  padding: 1.4rem 3.2rem;
+  background-color: #2c344b;
+  color: white;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  border: none;
+}
+.main__form input::placeholder {
+  opacity: 0.5;
+}
+.main__submitbtn {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+
+  background-color: #54e6af;
+  color: #121725;
+  border-radius: 28px;
+  padding: 0.9rem 2.7rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+.main__submitbtn:focus,
+.main__submitbtn:hover {
+  background: #b3ffe2;
+}
+.main__error-msg {
+  position: absolute;
+  left: 3.2rem;
+  margin-top: 0.8rem;
+  color: #fb3e3e;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.main__features {
+  gap: 4rem;
+}
+.main__imgbox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
